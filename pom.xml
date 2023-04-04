@@ -96,16 +96,22 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>ACADA Learning Releases Nexus Repository</name>
-	      <url>http://172.31.27.56:8081/repository/rbc-release/</url>
+	      <name>Temitope Releases Nexus Repository</name>
+	      <url>http://172.31.27.45:8081/repository/rbc-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>ACADA Learning Snapshot Nexus Repository </name>
-	      <url>http://172.31.27.56:8081/repository/rbc-snapshot/</url>
+	      <name>Temitope Snapshot Nexus Repository </name>
+	      <url>http://172.31.27.45:8081/repository/rbc-snapshot/</url>
 	    </snapshotRepository>
 	    
+		<snapshotRepository>
+	      <id>nexus</id>
+	      <name>Temitope Snapshot Nexus Repository </name>
+	      <url>http://172.31.27.45:8081/repository/rbc-snapshots/</url>
+	    </snapshotRepository>
+		
 	</distributionManagement>
 	
 	<build>
